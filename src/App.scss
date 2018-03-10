@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+
+  @media (max-width: 400px) {
+    font-size: small;
+  }
+}
+
+.App {
+  position: relative;
+  background: #f7f7f7;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+
+  @media (min-width: 500px) {
+    min-height: 90vh;
+    margin: 5vh auto;
+    width: 30em;
+    height: 80vh;
+    padding: 8em 4em;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: #ddd;
+  }
+}
